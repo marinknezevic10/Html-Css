@@ -143,4 +143,16 @@ ul li a:hover {
   border: none;
   margin-bottom: 10px;
   margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content .cn a {
+  text-decoration: none;
+  color: black;
+}
+
+.cn:hover {
+  background: white;
 }
