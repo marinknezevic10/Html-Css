@@ -156,3 +156,21 @@ ul li a:hover {
 .cn:hover {
   background: white;
 }
+
+.content span {
+  color: #ff7200;
+  font-size: 60px;
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  position: absolute;
+  left: 870px;
+  top: -20px;
+}
