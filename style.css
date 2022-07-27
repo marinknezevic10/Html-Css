@@ -171,6 +171,20 @@ ul li a:hover {
     rgba(0, 0, 0, 0.8) 50%
   );
   position: absolute;
-  left: 870px;
+  left: 910px;
   top: -20px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
 }
