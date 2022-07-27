@@ -104,6 +104,11 @@ ul li a:hover {
   border-bottom-right-radius: 5px;
 }
 
+.btn a {
+  text-decoration: none;
+  color: #ff7200;
+}
+
 .btn:focus {
   outline: none;
 }
@@ -165,16 +170,13 @@ ul li a:hover {
 .form {
   width: 250px;
   height: 380px;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8) 50%,
-    rgba(0, 0, 0, 0.8) 50%
-  );
+  background: transparent;
   position: absolute;
   left: 910px;
   top: -20px;
   border-radius: 10px;
   padding: 25px;
+  margin: 10px;
 }
 
 .form h2 {
@@ -187,4 +189,15 @@ ul li a:hover {
   border-radius: 10px;
   margin: 2px;
   padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 40px;
+  background: transparent;
+}
+
+.reg {
+  text-decoration: none;
+  color: #ff7200;
 }
