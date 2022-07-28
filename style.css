@@ -177,6 +177,7 @@ ul li a:hover {
   border-radius: 10px;
   padding: 25px;
   margin: 10px;
+  border: 1px solid #ff7200;
 }
 
 .form h2 {
@@ -185,7 +186,7 @@ ul li a:hover {
   text-align: center;
   color: #ff7200;
   font-size: 22px;
-  background-color: white;
+  background-color: transparent;
   border-radius: 10px;
   margin: 2px;
   padding: 8px;
@@ -195,9 +196,26 @@ ul li a:hover {
   width: 240px;
   height: 40px;
   background: transparent;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: white;
 }
 
 .reg {
   text-decoration: none;
   color: #ff7200;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  font-family: Arial;
 }
